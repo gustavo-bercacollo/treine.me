@@ -5,7 +5,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Aprendizados">Aprendizados</a>
+  <a href="#-aprendizados">Aprendizados</a>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O treine me é uma landing page de criação de treinos físicos exclusivos, e conta com um botão que direciona para uma conversa exclusiva no whatsapp.
 
-- [Acesse o projeto finalizado, online](https://gustavo-bercacollo.github.io/flutuar.com/)
+- [Acesse o projeto finalizado, online](https://gustavo-bercacollo.github.io/treine.me/)
 
 ## :memo: Licença
 
