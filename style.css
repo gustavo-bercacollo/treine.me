@@ -1,0 +1,124 @@
+:root {
+  --cor-primária: #7D7987;
+  --cor-secundária: #1F1534;
+  --cor-terciária: #89C5CC;
+  --cor-quartenária: #69B99D;
+  --cor-quintenária: #F9F9F9;
+  --cor-sextanária: #61a58c;
+  --cor-septenária: black;
+  --fonte-principal:'Mulish', sans-serif;
+  --fonte-secundária: 'Open Sans', sans-serif;
+  --fonte-terciária: 'DM Sans', sans-serif;
+
+}
+
+body {
+  margin: 0;
+  font-family:var(--fonte-secundária);
+}
+
+.page {
+  width: 1000px;
+  height: 550px;
+  margin: auto;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+  text-decoration: none;
+  margin: 65px auto;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -20px
+}
+
+main, p {
+  color: var(--cor-primária)
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonte-principal);
+  text-decoration: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: var(--cor-primária);
+}
+
+ul li a:hover {
+  font-weight: bold;
+  color: var(--cor-secundária);
+  transition: 0.4s;
+}
+
+h1 {
+  font-family: var(--fonte-principal);
+  font-size: 49px;
+  color: var(--cor-secundária);
+  line-height: 56px;
+  font-weight: normal;
+}
+ h1 span {
+  color: var(--cor-terciária);
+ }
+
+ button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px 15px;
+  margin-top: 40px;
+  background-color: var(--cor-quartenária);
+  color: var(--cor-quintenária);
+  font-size: 16PX;
+  font-family: var(--fonte-terciária);
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 3px 5px rgb(195, 195, 195);
+  cursor: pointer;
+ }
+
+ button:hover {
+  transition: 0.5s;
+  background-color: var(--cor-sextanária);
+  box-shadow: 3px 3px 10px 1px rgb(195, 195, 195);
+ }
+
+ footer {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: var(--cor-septenária);
+  margin-top: 82px;
+ }
+
+ footer p a {
+  text-decoration: none;
+  color: black;
+ }
+
+#bolinhas {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#linkWhatsapp {
+  text-decoration: none;
+}
